@@ -1,0 +1,138 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+main form
+*/
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18;
+  background: #719799;
+}
+header,section,
+aside,footer,nav {
+  margin: 0px 1.5% 20px 1.5%;
+  background: #B4F1F4;
+  color: black;
+  display: block;
+  padding: 24px 15px;
+  text-align: center;
+}
+header,section,aside,footer,nav,.button {
+  border-bottom: 2px solid #5A787A;
+  border-left: 2px solid #5A787A;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+}
+/*
+header
+*/
+header {
+  background: linear-gradient(to right, #161E1E  , #9ED3D6, #9ED3D6);
+  text-align: left;
+  font-size: 30px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  border-top: 2px solid white;
+}
+.name {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  color: white;
+}
+nav {
+  background: #9ED3D6;
+  text-align: left;
+  font-size: 20px;
+  padding-top: 20px;
+  margin: 0px;
+  padding-left: 40px;
+  border: 0;
+}
+/*
+content
+*/
+section {
+  float: left;
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 25%;
+  margin-left: 0;
+}
+p, li {
+  padding-bottom: 10px;
+}
+.label {
+  text-decoration: underline;
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+/*
+button
+*/
+.button {
+	background: #719799;
+	color: black;
+	padding: 10px;
+	font-size: 18px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+}
+.button:hover {
+	background: transparent;
+	color: #161E1E;
+	box-shadow: inset 0 0 0 3px #161E1E;
+}
